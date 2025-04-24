@@ -10,8 +10,4 @@ int main() {
     printf("A área do seu circulo: %0.2f" , area);
 
 
-
-    
-
-
 }
