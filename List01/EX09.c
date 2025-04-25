@@ -1,14 +1,14 @@
 #include <stdio.h>
 int main(){
-    float base, altura, area, darea;
+    float base, h, area, darea;
 
     printf("Insira o valor Base: ");
     scanf("%f", &base);
 
-    printf("Insira o valor da Altura ");
-    scanf("%f", &altura);
+    printf("Insira o valor da h ");
+    scanf("%f", &h);
 
-    area = base * altura;
+    area = base * h;
 
     darea = area * 2;
 

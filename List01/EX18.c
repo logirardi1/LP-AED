@@ -2,20 +2,20 @@
 #include <math.h>
 
 int main() {
-    float largura, comprimento, pLamp;
+    float larg, comp, pLamp;
     float area, potencia;
     int qLamps;
 
-    printf("Digite a largura do cômodo (em metros): ");
-    scanf("%f", &largura);
+    printf("Digite a largura do cômodo (metros): ");
+    scanf("%f", &larg);
 
-    printf("Digite o comprimento do cômodo (em metros): ");
-    scanf("%f", &comprimento);
+    printf("Digite o comprimento do cômodo (metros): ");
+    scanf("%f", &comp);
 
-    printf("Digite a potência da lâmpada (em watts): ");
+    printf("Digite a potência das lâmpadas (watts): ");
     scanf("%f", &pLamp);
 
-    area = largura * comprimento;
+    area = larg * comp;
     potencia = area * 18;
     qLamps = ceil(potencia / pLamp);
 
